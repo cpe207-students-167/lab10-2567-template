@@ -23,9 +23,7 @@ export default function RandomUserPage() {
 
    setUsers(users.map((user:any) => cleanUser(user)));
 
-    //Your code here
-    //Process result from api response with map function. Tips use function from /src/libs/cleanUser
-    //Then update state with function : setUsers(...)
+   
   };
 
   return (
